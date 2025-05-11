@@ -9,6 +9,7 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        google()
     }
 }
 dependencyResolutionManagement {
@@ -17,6 +18,14 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+    //add on1
+//        versionCatalogs {
+//            create("libs") {
+//                from(files("gradle/libs.versions.toml"))
+//            }
+        //}
+
+    //add on2
 }
 
 rootProject.name = "MoviesApp"
